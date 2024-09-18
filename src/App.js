@@ -1,8 +1,15 @@
 import React from 'react'
 
+import "./css/style.css";
+import { Col, Container, Row } from 'react-bootstrap'
+
 const App = () => {
   return (
-    <div>App</div>
+    <Container> 
+        <Row>
+            <Col>Hello</Col>
+        </Row>
+    </Container>
   )
 }
 
