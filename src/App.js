@@ -1,20 +1,25 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import "./css/style.css";
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Row, Spinner } from 'react-bootstrap'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Layout from './layout/Layout';
-import HomeScreen from './screen/Home/HomeScreen';
+const Layout = React.lazy(() => import('./layout/Layout'));
+const HomeScreen = React.lazy(() => import('./screen/Home/HomeScreen'));
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
+      <Suspense fallback={<div>
+        
+        <Spinner />
+      </div>}>
           <Routes>
               {/*Website Routes*/}
               <Route path='/' element={<Layout />}>
                   <Route index  element={<HomeScreen />}></Route>
               </Route>
           </Routes>
+      </Suspense>
       </BrowserRouter>
     </>
   )
