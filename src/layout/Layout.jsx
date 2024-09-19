@@ -17,7 +17,7 @@ const Layout = () => {
   return (
     <>
       {/* Header  */}
-      <Navbar expand="lg" className="bg-body-tertiary container ">
+      {/* <Navbar expand="lg" className="bg-body-tertiary container ">
         <Container className="py-2">
           <Navbar.Brand href="#">
             <img src={logo} width="100" />
@@ -50,7 +50,11 @@ const Layout = () => {
             </Form>
           </Navbar.Collapse>
         </Container>
-      </Navbar>
+      </Navbar> */}
+
+      <div className="flex bg-white h-5">
+
+      </div>
 
       <Outlet />
 
