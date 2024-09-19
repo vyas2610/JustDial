@@ -9,7 +9,7 @@ import {
   NavDropdown,
   Row,
 } from "react-bootstrap";
-import { Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import logo from "../images/jdlogosvg.svg";
 import { Bell, Megaphone } from "react-bootstrap-icons";
 
@@ -51,10 +51,48 @@ const Layout = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar> */}
+      <nav>
+        <div className="container mx-auto bg-white">
+          <div className="flex p-5 items-center">
+            <Link>
+              <img src={logo} width="100" loading="lazy" />
+            </Link>
+            <ul className="lg:flex ms-auto gap-3 items-center">
+              <li className="py-1">
+                <Link className="hover:bg-gray-300 p-2 rounded">Home</Link>
+              </li>
+              <li className="py-1">
+                <Link className="hover:bg-gray-300 p-2 rounded">
+                  We're Hiring
+                </Link>
+              </li>
+              <li className="py-1">
+                <Link className="flex items-center hover:bg-gray-300 p-2 rounded gap-1">
+                  <span>
+                    <Megaphone />
+                  </span>
+                  <div className="">Investor Relations</div>
+                </Link>
+              </li>
+              <li className="py-1">
+                <Link className="hover:bg-gray-300 p-2 rounded">Advertise</Link>
+              </li>
+              <li className="py-1">
+                <Link className="hover:bg-gray-300 p-2 rounded">
+                  Free Listing
+                </Link>
+              </li>
 
-      <div className="flex bg-white h-5">
-
-      </div>
+              <li className="flex items-center bg-blue-700 px-2 py-1 text-white rounded gap-1">
+                <span>
+                  <Bell />
+                </span>
+                <Link>Login / Sign Up</Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
       <Outlet />
 
