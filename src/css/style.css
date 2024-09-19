@@ -1,9 +1,9 @@
 @import "bootstrap";
 
-/* @font-face {
+@font-face {
     font-family: 'poppinsblack';
-    src: url('/src/fonts/poppins-black-webfont.woff2') format('woff2'),
-         url('/src/fonts/poppins-black-webfont.woff') format('woff');
+    src: url('../fonts/poppins-black-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -14,8 +14,8 @@
 
 @font-face {
     font-family: 'poppinsextrabold';
-    src: url('/src/fonts/poppins-extrabold-webfont.woff2') format('woff2'),
-         url('/src/fonts/poppins-extrabold-webfont.woff') format('woff');
+    src: url('../fonts/poppins-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -26,8 +26,8 @@
 
 @font-face {
     font-family: 'poppinslight';
-    src: url('/src/fonts/poppins-light-webfont.woff2') format('woff2'),
-         url('/src/fonts/poppins-light-webfont.woff') format('woff');
+    src: url('../fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -38,8 +38,8 @@
 
 @font-face {
     font-family: 'poppinsmedium';
-    src: url('/src/fonts/poppins-medium-webfont.woff2') format('woff2'),
-         url('/src/fonts/poppins-medium-webfont.woff') format('woff');
+    src: url('../fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -50,14 +50,11 @@
 
 @font-face {
     font-family: 'poppinsregular';
-    src: url('poppins-regular-webfont.woff2') format('woff2'),
-         url('poppins-regular-webfont.woff') format('woff');
+    src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-     src: local('MyFont'), url(fonts/MyFont.woff) format('woff');
-
-
-} */
+}
 
 
  
@@ -66,8 +63,12 @@
     --textColor : #333;
     --font12 : 12px;
 }
+.container {
+    max-width: 1440px;
+}
 body ,.body {
     background: var(--bgcolor);
+    font-family: 'poppinsregular';
 }
 .text-color {
     color: var(--textColor);
