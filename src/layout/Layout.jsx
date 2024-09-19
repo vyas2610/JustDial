@@ -12,45 +12,13 @@ import {
 import { Link, Outlet } from "react-router-dom";
 import logo from "../images/jdlogosvg.svg";
 import { Bell, Megaphone } from "react-bootstrap-icons";
+import { data } from "../Component/data";
 
 const Layout = () => {
   return (
     <>
       {/* Header  */}
-      {/* <Navbar expand="lg" className="bg-body-tertiary container ">
-        <Container className="py-2">
-          <Navbar.Brand href="#">
-            <img src={logo} width="100" />
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" />
-          <Navbar.Collapse id="navbarScroll">
-            <Nav
-              className="ms-auto my-2 my-lg-0"
-              style={{ maxHeight: "100px" }}
-              navbarScroll
-            >
-              <NavDropdown title="En" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action4">
-                  Another action
-                </NavDropdown.Item>
-              </NavDropdown>
-              <Nav.Link href="#action1">We are Hiring</Nav.Link>
-              <Nav.Link href="#action2">
-                <Megaphone></Megaphone> Investor Relations
-              </Nav.Link>
-              <Nav.Link href="#action3">Advertise</Nav.Link>
-              <Nav.Link href="#action4">Free Listing</Nav.Link>
-              <Nav.Link href="#action5">
-                <Bell></Bell>
-              </Nav.Link>
-            </Nav>
-            <Form className="d-flex">
-              <Button variant="primary">Login / Sing up</Button>
-            </Form>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar> */}
+
       <nav className="">
         <div className="container mx-auto bg-white">
           <div className="flex p-5 items-center">
@@ -135,6 +103,12 @@ const Layout = () => {
           Some of our services that will prove useful to you on a day-to-day
           basis are :
         </h5>
+        {data.map((d) => (
+          <div className="flex">
+            <div>{d.icon}</div>
+            <div>{d.title}</div>
+          </div>
+        ))}
       </div>
     </>
   );
