@@ -27,4 +27,22 @@ export const data = [
     content:
       "You are just three clicks away from placing an order and exploring a wide range of exotic cuisines. Order food online with Justdial and get your favourite food delivered at your doorstep. Search for restaurants, view reviews and ratings, avail discounts and order your food.",
   },
+  {
+    icon: <MdOutlineFoodBank />,
+    title: "Order Food Online",
+    content:
+      "You are just three clicks away from placing an order and exploring a wide range of exotic cuisines. Order food online with Justdial and get your favourite food delivered at your doorstep. Search for restaurants, view reviews and ratings, avail discounts and order your food.",
+  },
+  {
+    icon: <MdOutlineFoodBank />,
+    title: "Order Food Online",
+    content:
+      "You are just three clicks away from placing an order and exploring a wide range of exotic cuisines. Order food online with Justdial and get your favourite food delivered at your doorstep. Search for restaurants, view reviews and ratings, avail discounts and order your food.",
+  },
+  {
+    icon: <MdOutlineFoodBank />,
+    title: "Order Food Online",
+    content:
+      "You are just three clicks away from placing an order and exploring a wide range of exotic cuisines. Order food online with Justdial and get your favourite food delivered at your doorstep. Search for restaurants, view reviews and ratings, avail discounts and order your food.",
+  },
 ];

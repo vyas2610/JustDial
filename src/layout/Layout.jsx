@@ -11,9 +11,11 @@ import {
 } from "react-bootstrap";
 import { Link, Outlet } from "react-router-dom";
 import logo from "../images/jdlogosvg.svg";
-import { Bell, Megaphone } from "react-bootstrap-icons";
+import { Bell, Facebook, Megaphone } from "react-bootstrap-icons";
 import { data } from "../Component/data";
 import { FaHandshakeSimple } from "react-icons/fa6";
+import { BsInstagram, BsTwitterX, BsYoutube } from "react-icons/bs";
+import { LiaLinkedin } from "react-icons/lia";
 
 const Layout = () => {
   return (
@@ -67,6 +69,34 @@ const Layout = () => {
 
       {/* footer */}
 
+      <div className=" container bg-white mx-auto  py-5">
+        <div className="flex mx-5 font-bold items-center gap-5">
+          <div>Follow us on</div>
+          <div className="flex gap-3 items-center">
+            <div className="text-blue-600 text-2xl">
+              <Facebook />
+            </div>
+            <div className="text-red-600 text-2xl">
+              <BsYoutube />
+            </div>
+            <div>
+              <BsInstagram />
+            </div>
+            <div className="text-cyan-600 text-2xl">
+              <LiaLinkedin />
+            </div>
+            <div className="text-black-600 text-2xl">
+              <BsTwitterX />
+            </div>
+          </div>
+          <div className="ms-auto">
+            <div className="flex gap-2">
+              <div>Google Play</div>
+              <div>Apple Store</div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="container bg-white mx-auto px-5 py-5">
         <h5 className="font-bold">
           One-Stop for All Local Businesses, Services, & Stores Nearby Across
@@ -105,9 +135,9 @@ const Layout = () => {
           basis are :
         </h5>
 
-        <div className="flex gap-5">
+        <div className=" flex flex-wrap gap-5">
           {data.map((d) => (
-            <div>
+            <div className="w-80">
               <div className="flex py-5 items-center gap-3">
                 <div className="text-2xl">{d.icon}</div>
                 <div className="font-bold">{d.title}</div>
