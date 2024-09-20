@@ -13,13 +13,14 @@ import { Link, Outlet } from "react-router-dom";
 import logo from "../images/jdlogosvg.svg";
 import { Bell, Megaphone } from "react-bootstrap-icons";
 import { data } from "../Component/data";
+import { FaHandshakeSimple } from "react-icons/fa6";
 
 const Layout = () => {
   return (
     <>
       {/* Header  */}
 
-      <nav className="">
+      <nav className="font-size border-b-2">
         <div className="container mx-auto bg-white">
           <div className="flex p-5 items-center">
             <Link>
@@ -99,16 +100,69 @@ const Layout = () => {
           are offered the best bargains in the market
         </p>
 
-        <h5>
+        <h5 className="py-5">
           Some of our services that will prove useful to you on a day-to-day
           basis are :
         </h5>
-        {data.map((d) => (
-          <div className="flex">
-            <div>{d.icon}</div>
-            <div>{d.title}</div>
+
+        <div className="flex gap-5">
+          {data.map((d) => (
+            <div>
+              <div className="flex py-5 items-center gap-3">
+                <div className="text-2xl">{d.icon}</div>
+                <div>{d.title}</div>
+              </div>
+              <p className="text-color leading-7">{d.content}</p>
+            </div>
+          ))}
+        </div>
+
+        <div className="py-4 text-color">
+          <p className="py-5">
+            Some of the other services that can be of assistance to you for
+            leisure, health and home convenience are - Pest Control, Skin Care
+            Clinics, Painters, Laundry Services, Interior Designers, Mobile
+            Phone Repair, Vaccination Centres, Internet Service Providers, etc.
+            With an endless number of things under the sun, you can be sure this
+            will be your 'One Stop Shop' to find everything and more.
+          </p>
+        </div>
+
+        <div className="py-4">
+          <h5>Popular Categories</h5>
+        </div>
+
+        <div className="py-4">
+          <h5 className="py-4">Explore JD Collection</h5>
+          <div className="flex text-color gap-2 items-center">
+            <div className=""> Travel & Tourism</div>
+            <div className="border-l-1 border-r-1">Beauty & Fashion</div>
+            <div className=" border-r-1 p-1">Health & Fitness</div>
+            <div className=" border-r-1 p-1">Food & Beverage</div>
+            <div className=" border-r-1 p-1">Fianace</div>
+            <div className=" border-r-1 p-1">On Demand Service</div>
+            <div className=" border-r-1 p-1">Home & Living</div>
+            <div className=" border-r-1 p-1">Education & Career</div>
+            <div className=" border-r-1 p-1">Recreation</div>
+            <div>JD Business Guide</div>
           </div>
-        ))}
+        </div>
+
+        <div className="py-4">
+          <h5 className="py-4">Popular Cities</h5>
+          <div className="flex text-color gap-2 items-center">
+            <div className=""> Travel & Tourism</div>
+            <div className="border-l-1 border-r-1">Beauty & Fashion</div>
+            <div className=" border-r-1 p-1">Health & Fitness</div>
+            <div className=" border-r-1 p-1">Food & Beverage</div>
+            <div className=" border-r-1 p-1">Fianace</div>
+            <div className=" border-r-1 p-1">On Demand Service</div>
+            <div className=" border-r-1 p-1">Home & Living</div>
+            <div className=" border-r-1 p-1">Education & Career</div>
+            <div className=" border-r-1 p-1">Recreation</div>
+            <div>JD Business Guide</div>
+          </div>
+        </div>
       </div>
     </>
   );

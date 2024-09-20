@@ -23,8 +23,6 @@
 }
 
 
-
-
 @font-face {
     font-family: 'poppinslight';
     src: url('../fonts/poppins-light-webfont.woff2') format('woff2'),
@@ -35,8 +33,6 @@
 }
 
 
-
-
 @font-face {
     font-family: 'poppinsmedium';
     src: url('../fonts/poppins-medium-webfont.woff2') format('woff2'),
@@ -45,8 +41,6 @@
     font-style: normal;
 
 }
-
-
 
 
 @font-face {
@@ -63,6 +57,7 @@
     --bgcolor : #e8e8e8;
     --textColor : #333;
     --font12 : 12px;
+    --font14 : 14px;
 }
 .container {
     max-width: 1440px;
@@ -76,3 +71,8 @@ body ,.body {
     font-size: var(--font12);
     list-style: 1.67;
 }
+.font-size {
+    font-size: var(--font14);
+}
+
+
