@@ -68,7 +68,7 @@ const Layout = () => {
       {/* footer */}
 
       <div className="container bg-white mx-auto px-5 py-5">
-        <h5>
+        <h5 className="font-bold">
           One-Stop for All Local Businesses, Services, & Stores Nearby Across
           India
         </h5>
@@ -100,7 +100,7 @@ const Layout = () => {
           are offered the best bargains in the market
         </p>
 
-        <h5 className="py-5">
+        <h5 className="py-5 font-bold">
           Some of our services that will prove useful to you on a day-to-day
           basis are :
         </h5>
@@ -110,7 +110,7 @@ const Layout = () => {
             <div>
               <div className="flex py-5 items-center gap-3">
                 <div className="text-2xl">{d.icon}</div>
-                <div>{d.title}</div>
+                <div className="font-bold">{d.title}</div>
               </div>
               <p className="text-color leading-7">{d.content}</p>
             </div>
@@ -129,11 +129,11 @@ const Layout = () => {
         </div>
 
         <div className="py-4">
-          <h5>Popular Categories</h5>
+          <h5 className="font-bold">Popular Categories</h5>
         </div>
 
         <div className="py-4">
-          <h5 className="py-4">Explore JD Collection</h5>
+          <h5 className="py-4 font-bold">Explore JD Collection</h5>
           <div className="flex text-color gap-2 items-center">
             <div className=""> Travel & Tourism</div>
             <div className="border-l-1 border-r-1">Beauty & Fashion</div>
@@ -149,18 +149,259 @@ const Layout = () => {
         </div>
 
         <div className="py-4">
-          <h5 className="py-4">Popular Cities</h5>
+          <h5 className="py-4 font-bold">Popular Cities</h5>
           <div className="flex text-color gap-2 items-center">
-            <div className=""> Travel & Tourism</div>
-            <div className="border-l-1 border-r-1">Beauty & Fashion</div>
-            <div className=" border-r-1 p-1">Health & Fitness</div>
-            <div className=" border-r-1 p-1">Food & Beverage</div>
-            <div className=" border-r-1 p-1">Fianace</div>
-            <div className=" border-r-1 p-1">On Demand Service</div>
-            <div className=" border-r-1 p-1">Home & Living</div>
-            <div className=" border-r-1 p-1">Education & Career</div>
-            <div className=" border-r-1 p-1">Recreation</div>
-            <div>JD Business Guide</div>
+            <div className=""> Delhi</div>
+            <div className="border-l-1 border-r-1">Mumbai</div>
+            <div className=" border-r-1 p-1">Hyderabad</div>
+            <div className=" border-r-1 p-1">Chennai</div>
+            <div className=" border-r-1 p-1">Pune</div>
+            <div className=" border-r-1 p-1">Ahmedabad</div>
+            <div className=" border-r-1 p-1">Kolkata</div>
+            <div className=" border-r-1 p-1">Jaipur</div>
+            <div className=" border-r-1 p-1">Lucknow</div>
+            <div>Pune</div>
+            <div className=""> Delhi</div>
+            <div className="border-l-1 border-r-1">Mumbai</div>
+            <div className=" border-r-1 p-1">Hyderabad</div>
+            <div className=" border-r-1 p-1">Chennai</div>
+            <div className=" border-r-1 p-1">Pune</div>
+            <div className=" border-r-1 p-1">Ahmedabad</div>
+            <div className=" border-r-1 p-1">Kolkata</div>
+            <div className=" border-r-1 p-1">Jaipur</div>
+            <div className=" border-r-1 p-1">Lucknow</div>
+            <div>Pune</div>
+            <div className=""> Delhi</div>
+            <div className="border-l-1 border-r-1">Mumbai</div>
+            <div className=" border-r-1 p-1">Hyderabad</div>
+          </div>
+          <div className="flex text-color gap-2 items-center">
+            <div className=""> Delhi</div>
+            <div className="border-l-1 border-r-1">Mumbai</div>
+            <div className=" border-r-1 p-1">Hyderabad</div>
+            <div className=" border-r-1 p-1">Chennai</div>
+            <div className=" border-r-1 p-1">Pune</div>
+            <div className=" border-r-1 p-1">Ahmedabad</div>
+            <div className=" border-r-1 p-1">Kolkata</div>
+            <div className=" border-r-1 p-1">Jaipur</div>
+            <div className=" border-r-1 p-1">Lucknow</div>
+            <div>Pune</div>
+            <div className=""> Delhi</div>
+            <div className="border-l-1 border-r-1">Mumbai</div>
+            <div className=" border-r-1 p-1">Hyderabad</div>
+            <div className=" border-r-1 p-1">Chennai</div>
+            <div className=" border-r-1 p-1">Pune</div>
+            <div className=" border-r-1 p-1">Ahmedabad</div>
+            <div className=" border-r-1 p-1">Kolkata</div>
+            <div className=" border-r-1 p-1">Jaipur</div>
+            <div className=" border-r-1 p-1">Lucknow</div>
+            <div>Pune</div>
+            <div className=""> Delhi</div>
+            <div className="border-l-1 border-r-1">Mumbai</div>
+            <div className=" border-r-1 p-1">Hyderabad</div>
+          </div>
+          <div className="flex text-color gap-2 items-center">
+            <div className=""> Delhi</div>
+            <div className="border-l-1 border-r-1">Mumbai</div>
+            <div className=" border-r-1 p-1">Hyderabad</div>
+            <div className=" border-r-1 p-1">Chennai</div>
+            <div className=" border-r-1 p-1">Pune</div>
+            <div className=" border-r-1 p-1">Ahmedabad</div>
+            <div className=" border-r-1 p-1">Kolkata</div>
+            <div className=" border-r-1 p-1">Jaipur</div>
+            <div className=" border-r-1 p-1">Lucknow</div>
+            <div>Pune</div>
+            <div className=""> Delhi</div>
+            <div className="border-l-1 border-r-1">Mumbai</div>
+            <div className=" border-r-1 p-1">Hyderabad</div>
+            <div className=" border-r-1 p-1">Chennai</div>
+            <div className=" border-r-1 p-1">Pune</div>
+          </div>
+        </div>
+
+        {/* Footer nav */}
+        <div className="flex py-5">
+          <div className="w-96">
+            <h5 className="font-bold">Quick Links</h5>
+            <div className="flex gap-20">
+              <div className="">
+                <ul className="text-color py-2">
+                  <li className="py-3">
+                    <Link>About us</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Investor Relations</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>We're Hiring</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Customer Care</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Free Listing</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>What's New</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Report a Bug</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>B2B Sitemap</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>SiteMap</Link>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <ul className="text-color py-2">
+                  <li className="py-3">
+                    <Link>Advertise</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Media</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Testimonials</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Feedback</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Business Badge</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Jd Collection</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Client Success Video</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>B2B India Sitemap</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h5 className="font-bold">Jd Verticals</h5>
+
+            <div className="flex gap-20">
+              <div className="">
+                <ul className="text-color py-2">
+                  <li className="py-3">
+                    <Link>B2B</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Agriculture</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Chemicals</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Engineering</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Home & Garden</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Luggage Bags & Cases</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Restaurant</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Transpotation & Shipping</Link>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <ul className="text-color py-2">
+                  <li className="py-3">
+                    <Link>All India</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Appreal</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Construction & Real State</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Entertainment</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>House Keeping & Faclity Management</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Office & School Supplies</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Rubber & Plastic</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Travel</Link>
+                  </li>
+                </ul>
+              </div>
+              <div className="">
+                <ul className="text-color py-2">
+                  <li className="py-3">
+                    <Link>Doctors</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Astrology</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Education</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Events & Wedding</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Industrial Plants</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Packages & Printing</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Restaurant</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Transpotation & Shipping</Link>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <ul className="text-color py-2">
+                  <li className="py-3">
+                    <Link>All India</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Appreal</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Construction & Real State</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Entertainment</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>House Keeping & Faclity Management</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Office & School Supplies</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Rubber & Plastic</Link>
+                  </li>
+                  <li className="py-3">
+                    <Link>Travel</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
