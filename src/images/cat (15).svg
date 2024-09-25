@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fec007;
+      }
+
+      .cls-3 {
+        fill: #50b8ff;
+      }
+
+      .cls-4 {
+        fill: #caedff;
+      }
+
+      .cls-5 {
+        fill: #76c2e0;
+      }
+
+      .cls-6 {
+        fill: #fe9700;
+      }
+
+      .cls-7 {
+        fill: #efcdb1;
+      }
+
+      .cls-8 {
+        fill: #d8ad8f;
+      }
+
+      .cls-9 {
+        fill: #2195f2;
+      }
+
+      .cls-10 {
+        fill: #333a60;
+      }
+    </style>
+  </defs>
+  <g id="PG_Hostels_Rooms" data-name="PG, Hostels &amp; Rooms" transform="translate(-32 -209)">
+    <g id="daily-needs-icn" transform="translate(32 209)">
+      <path id="Rectangle_91" data-name="Rectangle 91" class="cls-1" d="M0,0H28V28H0Z"/>
+      <g id="bunk-bed" transform="translate(2 -28.458)">
+        <path id="Path_16972" data-name="Path 16972" class="cls-2" d="M409.442,82.577h0a1,1,0,0,1,0-1.365l1.037-1.084a.9.9,0,0,1,1.306,0h0a1,1,0,0,1,0,1.365l-1.037,1.084A.9.9,0,0,1,409.442,82.577Z" transform="translate(-389.992 -46.016)"/>
+        <path id="Path_16973" data-name="Path 16973" class="cls-3" d="M409.442,281.379h0a1,1,0,0,1,0-1.365l1.037-1.084a.9.9,0,0,1,1.306,0h0a1,1,0,0,1,0,1.365l-1.037,1.084A.9.9,0,0,1,409.442,281.379Z" transform="translate(-389.992 -235.079)"/>
+        <rect id="Rectangle_16113" data-name="Rectangle 16113" class="cls-4" width="9.229" height="2.698" transform="translate(13.012 36.853)"/>
+        <rect id="Rectangle_16114" data-name="Rectangle 16114" class="cls-5" width="9.229" height="1.207" transform="translate(13.012 38.344)"/>
+        <path id="Path_16974" data-name="Path 16974" class="cls-2" d="M76.991,131.522v2.054H63.654v-2.054a1.171,1.171,0,0,1,1.144-1.2H75.847A1.171,1.171,0,0,1,76.991,131.522Z" transform="translate(-60.67 -94.025)"/>
+        <rect id="Rectangle_16115" data-name="Rectangle 16115" class="cls-6" width="13.337" height="1.207" transform="translate(2.984 38.344)"/>
+        <rect id="Rectangle_16116" data-name="Rectangle 16116" class="cls-7" width="21.889" height="1.472" transform="translate(1.056 39.306)"/>
+        <g id="Group_16262" data-name="Group 16262" transform="translate(1.76 39.306)">
+          <rect id="Rectangle_16117" data-name="Rectangle 16117" class="cls-8" width="1.039" height="1.472" transform="translate(0 0)"/>
+          <rect id="Rectangle_16118" data-name="Rectangle 16118" class="cls-8" width="1.039" height="1.472" transform="translate(19.442 0)"/>
+        </g>
+        <rect id="Rectangle_16119" data-name="Rectangle 16119" class="cls-4" width="9.229" height="2.698" transform="translate(13.012 46.582)"/>
+        <rect id="Rectangle_16120" data-name="Rectangle 16120" class="cls-5" width="9.229" height="1.207" transform="translate(13.012 48.073)"/>
+        <path id="Path_16975" data-name="Path 16975" class="cls-3" d="M76.991,330.117v2.054H63.654v-2.054a1.171,1.171,0,0,1,1.144-1.2H75.847A1.171,1.171,0,0,1,76.991,330.117Z" transform="translate(-60.67 -282.891)"/>
+        <path id="Path_16976" data-name="Path 16976" class="cls-9" d="M76.991,370.613v1.207H63.654v-1.207" transform="translate(-60.67 -322.54)"/>
+        <rect id="Rectangle_16121" data-name="Rectangle 16121" class="cls-7" width="21.889" height="1.472" transform="translate(1.056 49.035)"/>
+        <g id="Group_16263" data-name="Group 16263" transform="translate(1.76 49.035)">
+          <rect id="Rectangle_16122" data-name="Rectangle 16122" class="cls-8" width="1.039" height="1.472" transform="translate(19.442)"/>
+          <rect id="Rectangle_16123" data-name="Rectangle 16123" class="cls-8" width="1.039" height="1.472"/>
+        </g>
+        <g id="Group_16264" data-name="Group 16264" transform="translate(0.352 31.825)">
+          <rect id="Rectangle_16124" data-name="Rectangle 16124" class="cls-7" width="1.408" height="21.265" transform="translate(21.889 0)"/>
+          <rect id="Rectangle_16125" data-name="Rectangle 16125" class="cls-7" width="1.408" height="21.265" transform="translate(0 0)"/>
+        </g>
+        <path id="Path_16977" data-name="Path 16977" class="cls-10" d="M23.648,33.9A.36.36,0,0,0,24,33.534V31.826a.36.36,0,0,0-.352-.367H22.24a.36.36,0,0,0-.352.367v1.889a1.236,1.236,0,0,0-1.65.137L19.2,34.935a1.38,1.38,0,0,0-.233,1.551H16.315a1.468,1.468,0,0,0-1.139-.552H9.528V33.828a.352.352,0,1,0-.7,0v.88H5.27v-.88a.352.352,0,1,0-.7,0v1.244s0,0,0,0,0,0,0,0v.856H4.128a1.532,1.532,0,0,0-1.5,1.563v1.442H2.111V35.444a.352.352,0,1,0-.7,0V39.3s0,0,0,.006,0,0,0,.006v1.459s0,0,0,.006,0,0,0,.006v8.247s0,0,0,0,0,0,0,0V50.5s0,0,0,0,0,0,0,0v2.213H.7V32.193h.7v1.831a.352.352,0,1,0,.7,0v-2.2a.36.36,0,0,0-.352-.367H.352A.36.36,0,0,0,0,31.825V53.091a.36.36,0,0,0,.352.367H1.76a.36.36,0,0,0,.352-.367V50.874H4.567v1.121s0,0,0,0,0,0,0,0v1.089a.352.352,0,1,0,.7,0v-.725H8.825v.725a.352.352,0,1,0,.7,0V50.874h12.36v2.217a.36.36,0,0,0,.352.367h1.408A.36.36,0,0,0,24,53.091V34.954a.352.352,0,1,0-.7,0V52.723h-.7V49.28a.377.377,0,0,1,0-.245V40.778h0v-1.47h0V32.193h.7v1.341A.36.36,0,0,0,23.648,33.9ZM3.335,48.667V47.226a.812.812,0,0,1,.793-.828H10.8a.368.368,0,0,0,0-.735H9.528V41.145h12.36v2.309a1.236,1.236,0,0,0-1.65.137L19.2,44.674a1.38,1.38,0,0,0-.238,1.54H16.317a1.463,1.463,0,0,0-1.14-.552H12.164a.368.368,0,0,0,0,.735h3.012a.782.782,0,0,1,.668.383.851.851,0,0,1,.124.445v1.442Zm-1.224,0V41.145H4.567v1.07s0,0,0,0,0,0,0,0v2.293s0,0,0,0,0,0,0,0v1.142H4.128a1.532,1.532,0,0,0-1.5,1.563v1.442Zm6.714-7.522v.706H5.27v-.706ZM5.27,45.663v-.778H8.825v.778ZM8.825,44.15H5.27V42.586H8.825ZM19.7,46.039a.617.617,0,0,1,0-.846l1.037-1.084a.555.555,0,0,1,.809,0,.617.617,0,0,1,0,.846l-1.037,1.084a.556.556,0,0,1-.4.175h0A.556.556,0,0,1,19.7,46.039Zm2.19-.4v.579h-.554Zm-5.241,1.314h5.241v1.718H16.672V47.226A1.634,1.634,0,0,0,16.648,46.949ZM19.7,35.455l1.037-1.084a.555.555,0,0,1,.809,0,.617.617,0,0,1,0,.846L20.508,36.3a.555.555,0,0,1-.809,0,.617.617,0,0,1,0-.846Zm2.19.442v.589h-.564Zm0,1.324v1.718H16.672V37.5a1.63,1.63,0,0,0-.024-.276ZM5.27,35.443H8.825v.492H5.27ZM3.335,37.5a.812.812,0,0,1,.793-.828H15.176a.812.812,0,0,1,.793.828v1.442H3.335Zm18.554,2.176v.737H2.111v-.737ZM8.825,51.631H5.27v-.757H8.825ZM2.111,50.139V49.4H21.889v.737Z" transform="translate(0 0)"/>
+      </g>
+    </g>
+  </g>
+</svg>

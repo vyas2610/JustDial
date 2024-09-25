@@ -7,92 +7,98 @@ const HomeCategories = () => {
       image: require("../../../images/img1.webp"),
     },
     {
-      name: "Restaurants",
+      name: "Hotels",
       image: require("../../../images/img1.webp"),
     },
     {
-      name: "Restaurants",
+      name: "Beauty Spa",
       image: require("../../../images/img1.webp"),
     },
     {
-      name: "Restaurants",
+      name: "Home Decor",
       image: require("../../../images/img1.webp"),
     },
     {
-      name: "Restaurants",
+      name: "Wedding Planner",
       image: require("../../../images/img1.webp"),
     },
     {
-      name: "Restaurants",
+      name: "Education",
       image: require("../../../images/img1.webp"),
     },
     {
-      name: "Restaurants",
+      name: "Rent & Hire",
       image: require("../../../images/img1.webp"),
     },
     {
-      name: "Restaurants",
+      name: "Hospitals",
       image: require("../../../images/img1.webp"),
     },
     {
-      name: "Restaurants",
+      name: "Contractors",
       image: require("../../../images/img1.webp"),
     },
     {
-      name: "Restaurants",
+      name: "Pet Shops",
       image: require("../../../images/img1.webp"),
     },
     {
-      name: "Restaurants",
+      name: "PG/Hostels",
       image: require("../../../images/img1.webp"),
     },
     {
-      name: "Restaurants",
+      name: "Estate Agent",
       image: require("../../../images/img1.webp"),
     },
     {
-      name: "Restaurants",
+      name: "Dentist",
       image: require("../../../images/img1.webp"),
     },
     {
-      name: "Restaurants",
+      name: "Gym",
       image: require("../../../images/img1.webp"),
     },
     {
-      name: "Restaurants",
+      name: "Loans",
       image: require("../../../images/img1.webp"),
     },
     {
-      name: "Restaurants",
+      name: "Event Organizer",
       image: require("../../../images/img1.webp"),
     },
     {
-      name: "Restaurants",
+      name: "Driving Schools",
       image: require("../../../images/img1.webp"),
     },
     {
-      name: "Restaurants",
+      name: "Packers & Moves",
       image: require("../../../images/img1.webp"),
     },
     {
-      name: "Restaurants",
+      name: "Services",
       image: require("../../../images/img1.webp"),
     },
     {
-      name: "Restaurants",
+      name: "Popular Categories",
       image: require("../../../images/img1.webp"),
     },
   ]);
   return (
     <div className="container mx-auto py-16 bg-white px-5">
-      <div className="grid lg:grid-cols-10 grid-cols-3 gap-5">
+      <div className="grid lg:grid-cols-10 grid-cols-3 gap-10">
         {categories.map((cat, cIndex) => (
           <div key={cIndex}>
+            <div className="w-full">
+
             <img
               src={cat.image}
               alt=""
               className="border border-gray-400 rounded-lg w-full h-24"
             />
+            </div>
+            <div className="">
+              <p className="text-center font-bold">{cat.name}</p>
+            </div>
           </div>
         ))}
       </div>

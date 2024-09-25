@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1274c0;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="More" transform="translate(-1266 -528)">
+    <circle id="Ellipse_3014" data-name="Ellipse 3014" class="cls-1" cx="19.5" cy="19.5" r="19.5" transform="translate(1266 528)"/>
+    <g id="menu_1_" data-name="menu (1)" transform="translate(1277 479.975)">
+      <g id="grip-solid-horizontal_1_" transform="translate(0 59.025)">
+        <path id="Path_142639" data-name="Path 142639" class="cls-2" d="M16.677,351H1.112a1.468,1.468,0,0,1,0-2.848H16.677a1.468,1.468,0,0,1,0,2.848Z" transform="translate(0 -334.184)"/>
+        <path id="Path_142640" data-name="Path 142640" class="cls-2" d="M16.677,205.937H1.112a1.468,1.468,0,0,1,0-2.848H16.677a1.468,1.468,0,0,1,0,2.848Z" transform="translate(0 -196.105)"/>
+        <path id="Path_142641" data-name="Path 142641" class="cls-2" d="M16.677,60.873H1.112a1.468,1.468,0,0,1,0-2.848H16.677a1.468,1.468,0,0,1,0,2.848Z" transform="translate(0 -58.025)"/>
+      </g>
+    </g>
+  </g>
+</svg>
