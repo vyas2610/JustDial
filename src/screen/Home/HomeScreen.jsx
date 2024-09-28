@@ -7,6 +7,8 @@ import HomeCategories from "./HomeCategories";
 
 import catimg from "../../images/hkim_banquethall.png";
 
+import expl from "../../images/Explorecities_Mumbai.png";
+
 const HomeScreen = () => {
   return (
     <>
@@ -213,6 +215,30 @@ const HomeScreen = () => {
             <div className="w-1/3 py-2 ">
               <img src={img1} alt="" width="100" className="border " />
               <p className="font-bold">Mobile</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Explore City */}
+
+        <div className="flex py-10 flex-col px-2">
+          <div>
+            <h1 className="font-bold text-2xl">Explore Top Cities new</h1>
+          </div>
+          <div>
+            <p className="leading-6 text-sm">
+              Dive into cities' unique vibes, from iconic landmarks to hidden
+              gems.
+            </p>
+          </div>
+          <div className="flex ">
+            <div className="w-60 p-5 border">
+              <div className="flex items-center">
+                <div className="wrap">
+                  <img src={expl} alt="" className=" " />
+                </div>
+                <div>MUMBAI </div>
+              </div>
             </div>
           </div>
         </div>
