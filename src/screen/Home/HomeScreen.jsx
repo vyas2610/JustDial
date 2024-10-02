@@ -221,7 +221,7 @@ const HomeScreen = () => {
 
         {/* Explore City */}
 
-        <div className="flex py-10 flex-col px-2">
+        {/* <div className="flex py-10 flex-col px-2">
           <div>
             <h1 className="font-bold text-2xl">Explore Top Cities new</h1>
           </div>
@@ -238,6 +238,104 @@ const HomeScreen = () => {
                   <img src={expl} alt="" className=" " />
                 </div>
                 <div>MUMBAI </div>
+              </div>
+            </div>
+          </div>
+        </div> */}
+
+        {/* Popular Search */}
+        <div className="p-4">
+          <h1 className="font-bold text-2xl">Popular Seaerches</h1>
+        </div>
+        <div className="flex py-5 gap-3 ">
+          <div className="flex flex-col border rounded-xl">
+            <div className="flex flex-col">
+              <div>
+                <img src={img1} alt="" className="wrap" />
+              </div>
+              <div className=" flex bg-blue-600 flex-col  gap-5 p-3">
+                <div className="font-bold  text-white">Interial Designers</div>
+                <div className="bg-white rounded-lg p-2 w-32 text-blue-400 font-bold">
+                  Enquire Now
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col border rounded-xl">
+            <div className="flex flex-col">
+              <div>
+                <img src={img1} alt="" className="wrap" />
+              </div>
+              <div className=" flex bg-blue-600 flex-col  gap-5 p-3">
+                <div className="font-bold  text-white">Interial Designers</div>
+                <div className="bg-white rounded-lg p-2 w-32 text-blue-400 font-bold">
+                  Enquire Now
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col border rounded-xl">
+            <div className="flex flex-col">
+              <div>
+                <img src={img1} alt="" className="wrap" />
+              </div>
+              <div className=" flex bg-blue-600 flex-col  gap-5 p-3">
+                <div className="font-bold  text-white">Interial Designers</div>
+                <div className="bg-white rounded-lg p-2 w-32 text-blue-400 font-bold">
+                  Enquire Now
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col border rounded-xl">
+            <div className="flex flex-col">
+              <div>
+                <img src={img1} alt="" className="wrap" />
+              </div>
+              <div className=" flex bg-blue-600 flex-col  gap-5 p-3">
+                <div className="font-bold  text-white">Interial Designers</div>
+                <div className="bg-white rounded-lg p-2 w-32 text-blue-400 font-bold">
+                  Enquire Now
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col border rounded-xl">
+            <div className="flex flex-col">
+              <div>
+                <img src={img1} alt="" className="wrap" />
+              </div>
+              <div className=" flex bg-blue-600 flex-col  gap-5 p-3">
+                <div className="font-bold  text-white">Interial Designers</div>
+                <div className="bg-white rounded-lg p-2 w-32 text-blue-400 font-bold">
+                  Enquire Now
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col border rounded-xl">
+            <div className="flex flex-col">
+              <div>
+                <img src={img1} alt="" className="wrap" />
+              </div>
+              <div className=" flex bg-blue-600 flex-col  gap-5 p-3">
+                <div className="font-bold  text-white">Interial Designers</div>
+                <div className="bg-white rounded-lg p-2 w-32 text-blue-400 font-bold">
+                  Enquire Now
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col border rounded-xl">
+            <div className="flex flex-col">
+              <div>
+                <img src={img1} alt="" className="wrap" />
+              </div>
+              <div className=" flex bg-blue-600 flex-col  gap-5 p-3">
+                <div className="font-bold  text-white">Interial Designers</div>
+                <div className="bg-white rounded-lg p-2 w-32 text-blue-400 font-bold">
+                  Enquire Now
+                </div>
               </div>
             </div>
           </div>
