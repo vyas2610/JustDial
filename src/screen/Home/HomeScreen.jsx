@@ -244,7 +244,7 @@ const HomeScreen = () => {
         </div> */}
 
         {/* Popular Search */}
-        <div className="p-4">
+        <div className="p-4+">
           <h1 className="font-bold text-2xl">Popular Seaerches</h1>
         </div>
         <div className="flex py-5 gap-3 ">
@@ -335,6 +335,92 @@ const HomeScreen = () => {
                 <div className="font-bold  text-white">Interial Designers</div>
                 <div className="bg-white rounded-lg p-2 w-32 text-blue-400 font-bold">
                   Enquire Now
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Recent Activity */}
+      <div className=" container flex flex-col bg-white p-5 mx-auto">
+        <div>
+          <h1 className="font-bold text-2xl">Recent Activity</h1>
+        </div>
+        <div className="">
+          <div className="flex py-5 items-center gap-5">
+            <div className="w-1/3 border p-3 rounded-lg">
+              <div className="flex flex-col">
+                <div>
+                  <h1 className="font-bold text-2xl">Tejal Electric</h1>
+                  <p className="font-bold text-gray-300 ">Basni - Jodhpur</p>
+                </div>
+                <div>
+                  <img src={slider1} alt="" className="h-44" />
+                </div>
+                <div className="py-5 p-3">
+                  <div>
+                    <p>Hemsajaat</p>
+                  </div>
+                  <div>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Perspiciatis minima, vel deleniti, voluptate, labore
+                      inventore blanditiis non repellat perferendis nisi saepe
+                      molestiae quasi ullam iusto! Maiores modi a earum quod.
+                      Omnis porro fuga cumque sed quas blanditiis sunt.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="w-1/3 border p-3 rounded-lg">
+              <div className="flex flex-col">
+                <div>
+                  <h1 className="font-bold text-2xl">Tejal Electric</h1>
+                  <p className="font-bold text-gray-300 ">Basni - Jodhpur</p>
+                </div>
+                <div>
+                  <img src={slider1} alt="" className="h-44" />
+                </div>
+                <div className="py-5 p-3">
+                  <div>
+                    <p>Hemsajaat</p>
+                  </div>
+                  <div>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Perspiciatis minima, vel deleniti, voluptate, labore
+                      inventore blanditiis non repellat perferendis nisi saepe
+                      molestiae quasi ullam iusto! Maiores modi a earum quod.
+                      Omnis porro fuga cumque sed quas blanditiis sunt.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="w-1/3 border p-3 rounded-lg">
+              <div className="flex flex-col">
+                <div>
+                  <h1 className="font-bold text-2xl">Tejal Electric</h1>
+                  <p className="font-bold text-gray-300 ">Basni - Jodhpur</p>
+                </div>
+                <div>
+                  <img src={slider1} alt="" className="h-44" />
+                </div>
+                <div className="py-5 p-3">
+                  <div>
+                    <p>Hemsajaat</p>
+                  </div>
+                  <div>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Perspiciatis minima, vel deleniti, voluptate, labore
+                      inventore blanditiis non repellat perferendis nisi saepe
+                      molestiae quasi ullam iusto! Maiores modi a earum quod.
+                      Omnis porro fuga cumque sed quas blanditiis sunt.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
