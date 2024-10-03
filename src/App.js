@@ -2,6 +2,7 @@ import React, { Suspense } from 'react'
 import "./css/style.css";
 import { Spinner } from 'react-bootstrap'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import PopularSearchData from './screen/Search';
 const Layout = React.lazy(() => import('./layout/Layout'));
 const HomeScreen = React.lazy(() => import('./screen/Home/HomeScreen'));
 
@@ -17,6 +18,7 @@ const App = () => {
               {/*Website Routes*/}
               <Route path='/' element={<Layout />}>
                   <Route index  element={<HomeScreen />}></Route>
+                  <Route path='/popularSearch' element={<PopularSearchData />} > </Route>
               </Route>
           </Routes>
       </Suspense>
