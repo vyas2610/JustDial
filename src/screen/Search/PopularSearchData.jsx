@@ -1,5 +1,6 @@
 import React from "react";
 import adsImg from "../../images/ads.jpg";
+import PopularData from "./PupularData";
 const PopularSearchData = () => {
   return (
     <>
@@ -22,6 +23,14 @@ const PopularSearchData = () => {
         </div>
 
         {/* Data  */}
+        <div className="flex p-5 gap-4">
+          <div className="w-10/12">
+            <PopularData />
+          </div>
+          <div className="w-1/5">
+            <p>Get the List</p>
+          </div>
+        </div>
       </div>
     </>
   );
