@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const HomeCategories = () => {
   const [categories, setCategories] = useState([
@@ -87,19 +88,20 @@ const HomeCategories = () => {
     <div className="container mx-auto py-16 bg-white px-5">
       <div className="grid lg:grid-cols-10 grid-cols-3 gap-10">
         {categories.map((cat, cIndex) => (
-          <div key={cIndex}>
-            <div className="w-full">
-
-            <img
-              src={cat.image}
-              alt=""
-              className="border border-gray-400 rounded-lg w-full h-24"
-            />
+          <Link to={"Restaurant-Collections"}>
+            <div key={cIndex}>
+              <div className="w-full">
+                <img
+                  src={cat.image}
+                  alt=""
+                  className="border border-gray-400 rounded-lg w-full h-24"
+                />
+              </div>
+              <div className="">
+                <p className="text-center font-bold">{cat.name}</p>
+              </div>
             </div>
-            <div className="">
-              <p className="text-center font-bold">{cat.name}</p>
-            </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>
