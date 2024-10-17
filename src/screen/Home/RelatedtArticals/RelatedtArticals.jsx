@@ -9,9 +9,15 @@ const RelatedtArticals = () => {
           <h1 className="text-2xl font-bold">Related Articals</h1>
         </div>
         <div>
-          <div className="flex gap-7 ">
+          <div className="grid lg:grid-cols-3 gap-7 ">
             <div className="border rounded p-2">
-              <img src={img} alt="" className="wrap" />
+              <div className="group overflow-hidden">
+                <img
+                  src={img}
+                  alt=""
+                  className="wrap group-hover:scale-125 transition-all"
+                />
+              </div>
               <p className="py-2">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Mollitia vero assumenda ab reiciendis voluptatum saepe sint
