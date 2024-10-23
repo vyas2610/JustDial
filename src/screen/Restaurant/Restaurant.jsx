@@ -1,6 +1,7 @@
 import React from "react";
 import image1 from "../../images/resfilter_banner_image.jpg";
 import resImg from "../../images/i_indianflavours.jpg";
+import { Link } from "react-router-dom";
 export const Restaurant = () => {
   return (
     <>
@@ -27,7 +28,9 @@ export const Restaurant = () => {
                   <li>Pure Veg</li>
                   <li>Gujrati</li>
                   <li>North Indian</li>
-                  <li>More</li>
+                  <li>
+                    <Link to={"/Indian-Restaurant"}>More</Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -48,7 +51,9 @@ export const Restaurant = () => {
                   <li>Pure Veg</li>
                   <li>Gujrati</li>
                   <li>North Indian</li>
-                  <li>More</li>
+                  <li>
+                    <Link to={"/Indian-Restaurant"}>More</Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -69,7 +74,9 @@ export const Restaurant = () => {
                   <li>Pure Veg</li>
                   <li>Gujrati</li>
                   <li>North Indian</li>
-                  <li>More</li>
+                  <li>
+                    <Link to={"/Indian-Restaurant"}>More</Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -90,7 +97,9 @@ export const Restaurant = () => {
                   <li>Pure Veg</li>
                   <li>Gujrati</li>
                   <li>North Indian</li>
-                  <li>More</li>
+                  <li>
+                    <Link to={"/Indian-Restaurant"}>More</Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -111,7 +120,9 @@ export const Restaurant = () => {
                   <li>Pure Veg</li>
                   <li>Gujrati</li>
                   <li>North Indian</li>
-                  <li>More</li>
+                  <li>
+                    <Link to={"/Indian-Restaurant"}>More</Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -132,7 +143,9 @@ export const Restaurant = () => {
                   <li>Pure Veg</li>
                   <li>Gujrati</li>
                   <li>North Indian</li>
-                  <li>More</li>
+                  <li>
+                    <Link to={"/Indian-Restaurant"}>More</Link>
+                  </li>
                 </ul>
               </div>
             </div>
