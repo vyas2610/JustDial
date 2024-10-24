@@ -28,7 +28,7 @@ export const Restaurant = () => {
                   <li>Pure Veg</li>
                   <li>Gujrati</li>
                   <li>North Indian</li>
-                  <li>
+                  <li className="text-blue-500">
                     <Link to={"/Indian-Restaurant"}>More</Link>
                   </li>
                 </ul>
@@ -51,7 +51,7 @@ export const Restaurant = () => {
                   <li>Pure Veg</li>
                   <li>Gujrati</li>
                   <li>North Indian</li>
-                  <li>
+                  <li className="text-blue-500">
                     <Link to={"/Indian-Restaurant"}>More</Link>
                   </li>
                 </ul>
@@ -74,7 +74,7 @@ export const Restaurant = () => {
                   <li>Pure Veg</li>
                   <li>Gujrati</li>
                   <li>North Indian</li>
-                  <li>
+                  <li className="text-blue-500">
                     <Link to={"/Indian-Restaurant"}>More</Link>
                   </li>
                 </ul>
@@ -97,7 +97,7 @@ export const Restaurant = () => {
                   <li>Pure Veg</li>
                   <li>Gujrati</li>
                   <li>North Indian</li>
-                  <li>
+                  <li className="text-blue-500">
                     <Link to={"/Indian-Restaurant"}>More</Link>
                   </li>
                 </ul>
@@ -120,7 +120,7 @@ export const Restaurant = () => {
                   <li>Pure Veg</li>
                   <li>Gujrati</li>
                   <li>North Indian</li>
-                  <li>
+                  <li className="text-blue-500">
                     <Link to={"/Indian-Restaurant"}>More</Link>
                   </li>
                 </ul>
@@ -143,7 +143,7 @@ export const Restaurant = () => {
                   <li>Pure Veg</li>
                   <li>Gujrati</li>
                   <li>North Indian</li>
-                  <li>
+                  <li className="text-blue-500">
                     <Link to={"/Indian-Restaurant"}>More</Link>
                   </li>
                 </ul>
