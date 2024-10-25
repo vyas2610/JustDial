@@ -1,6 +1,7 @@
 import React from "react";
 import image1 from "../../images/b_89.jpg";
 import biryani from "../../images/biryani.jpg";
+import { Link } from "react-router-dom";
 export const IndianRest = () => {
   return (
     <>
@@ -17,7 +18,9 @@ export const IndianRest = () => {
               <div>
                 <img src={biryani} alt="" srcset="" className="w-24" />
               </div>
+              <Link to={"/popularSearch"}>
               <div className="w-full">Biryani</div>
+              </Link>
             </div>
             <div className="w-1/3 flex  gap-5 items-center border-2 rounded-sm bg-gray-100">
               <div>

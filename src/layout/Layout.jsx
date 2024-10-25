@@ -22,7 +22,7 @@ const Layout = () => {
     <>
       {/* Header  */}
 
-      <nav className="font-size border-b-2">
+      <nav className="font-size border-b-2 sticky top-0 z-1">
         <div className="container mx-auto bg-white">
           <div className="flex p-5 items-center">
             <Link>

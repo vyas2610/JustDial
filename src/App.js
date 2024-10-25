@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import PopularSearchData from "./screen/Search";
 import Restaurant from "./screen/Restaurant";
 import IndianRest from "./screen/Indian";
+import DataDesc from "./screen/DataDescription";
 const Layout = React.lazy(() => import("./layout/Layout"));
 const HomeScreen = React.lazy(() => import("./screen/Home/HomeScreen"));
 
@@ -26,6 +27,7 @@ const App = () => {
               <Route path="/popularSearch" element={<PopularSearchData />} />
               <Route path="/Restaurant-Collections" element={<Restaurant />} />
               <Route path="/Indian-Restaurant" element={<IndianRest />} />
+              <Route path="/DataDescription" element={<DataDesc />} />
             </Route>
           </Routes>
         </Suspense>
