@@ -2,6 +2,7 @@ import React from "react";
 import { CiStar } from "react-icons/ci";
 import { FaPhone, FaStar } from "react-icons/fa";
 import { FaPencil, FaShare, FaWhatsapp } from "react-icons/fa6";
+import img1 from "../../images/afzal-mao-restaurant-masjid-bunder-mumbai-restaurants-g2bc6c31bd.jpg";
 
 export const DataDesc = () => {
   return (
@@ -86,9 +87,13 @@ export const DataDesc = () => {
         <div className="flex gap-5">
           <div className="w-4/5 p-5 border rounded-xl border-gray-300">
             <h2 className="text-xl font-bold">Menu</h2>
-            <div className="flex">
-              <div></div>
-              <div></div>
+            <div className="flex gap-5">
+              <div className="w-60">
+                <img src={img1} alt="" srcset="" className="w-full" />
+              </div>
+              <div className="w-60">
+                <img src={img1} alt="" srcset="" className="w-full" />
+              </div>
             </div>
           </div>
           <div className="w-1/5  p-5 border rounded-xl border-gray-300">
