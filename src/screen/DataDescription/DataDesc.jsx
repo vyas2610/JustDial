@@ -86,6 +86,15 @@ export const DataDesc = () => {
         </div>
         <div className="flex gap-5">
           <div className="w-4/5 p-5 border rounded-xl border-gray-300">
+            <h2 className="font-bold text-xl">Quick Information</h2>
+            <p className="text-gray-400 mt-6">Business Summary</p>
+            <p className="text-bold">
+              Banquet hall providing exceptional services and facilities for
+              conferences, exhibitions, seminars, and board meetings.
+            </p>
+            <p className="text-gray-400 mt-6">Year of Estalishment</p>
+            <p className="text-bold">1995</p>
+
             <h2 className="text-xl font-bold">Menu</h2>
             <div className="flex gap-5">
               <div className="w-60">
@@ -93,6 +102,23 @@ export const DataDesc = () => {
               </div>
               <div className="w-60">
                 <img src={img1} alt="" srcset="" className="w-full" />
+              </div>
+            </div>
+            <div className="mt-5">
+              <button className="bg-blue-600 px-5 py-3 font-bold rounded-xl text-white">
+                Upload Images
+              </button>
+            </div>
+
+            <div className="mt-5">
+              <h2 className="font-bold text-xl">Questions & Answers</h2>
+              <p className="text-gray-400">
+                Would you like to ask a question ?
+              </p>
+              <div>
+                <button className=" rounded border px-5 py-3 text-blue-700 border-blue-700 ">
+                  Post your Question
+                </button>
               </div>
             </div>
           </div>
