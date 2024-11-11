@@ -1,5 +1,6 @@
 import React from "react";
 import img from "./../../../images/articls.jpg";
+import { Data } from "./RelatedData";
 
 const RelatedtArticals = () => {
   return (
@@ -10,51 +11,25 @@ const RelatedtArticals = () => {
         </div>
         <div>
           <div className="grid lg:grid-cols-3 gap-7 ">
-            <div className="border rounded p-2">
-              <div className="group overflow-hidden">
-                <img
-                  src={img}
-                  alt=""
-                  className="wrap group-hover:scale-125 transition-all"
-                />
+            {Data.map((items) => (
+              <div className="border rounded p-2">
+                <div className="group overflow-hidden">
+                  <img
+                    src={items.image}
+                    alt=""
+                    className="wrap group-hover:scale-125 transition-all"
+                  />
+                </div>
+                <p className="py-2 text-justify leading-7">{items.data}</p>
               </div>
-              <p className="py-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Mollitia vero assumenda ab reiciendis voluptatum saepe sint
-                unde, nihil asperiores porro ducimus illum minus quod illo sunt
-                fugiat? Sit, earum itaque? Voluptates quod dignissimos debitis
-                minima excepturi, aliquam beatae aut, fuga, iste dolor nihil
-                facilis ex hic quos perferendis. Adipisci repellendus eius
-                beatae eveniet ad molestiae iusto. Fugit dolores recusandae
-                reiciendis?
-              </p>
-            </div>
-            <div className="border rounded p-2">
-              <img src={img} alt="" className="wrap" />
-              <p className="py-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Mollitia vero assumenda ab reiciendis voluptatum saepe sint
-                unde, nihil asperiores porro ducimus illum minus quod illo sunt
-                fugiat? Sit, earum itaque? Voluptates quod dignissimos debitis
-                minima excepturi, aliquam beatae aut, fuga, iste dolor nihil
-                facilis ex hic quos perferendis. Adipisci repellendus eius
-                beatae eveniet ad molestiae iusto. Fugit dolores recusandae
-                reiciendis?
-              </p>
-            </div>
-            <div className="border rounded p-2">
-              <img src={img} alt="" className="wrap" />
-              <p className="py-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Mollitia vero assumenda ab reiciendis voluptatum saepe sint
-                unde, nihil asperiores porro ducimus illum minus quod illo sunt
-                fugiat? Sit, earum itaque? Voluptates quod dignissimos debitis
-                minima excepturi, aliquam beatae aut, fuga, iste dolor nihil
-                facilis ex hic quos perferendis. Adipisci repellendus eius
-                beatae eveniet ad molestiae iusto. Fugit dolores recusandae
-                reiciendis?
-              </p>
-            </div>
+            ))}
+          </div>
+
+          <div className="text-center mt-6">
+            <button className="font-bold rounded-b-lg border px-10 py-3 border-blue-600 text-blue-600">
+              {" "}
+              Show More
+            </button>
           </div>
         </div>
       </div>
